@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: 20px auto;
+  background: #fff5f8;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+input,
+select,
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background: pink;
+  border: none;
+  cursor: pointer;
+}
+
+#message {
+  color: #cc6699;
+}
+
+.trip {
+  background: white;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid pink;
+}
+
+.trip button {
+  margin-top: 10px;
+}

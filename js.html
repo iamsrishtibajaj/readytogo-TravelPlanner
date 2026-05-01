@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Planner</title>
+  <link rel="stylesheet" href="js.css">
+</head>
+<body>
+  <h1>Travel Planner</h1>
+
+  <form id="tripForm">
+    <input type="hidden" id="tripId">
+    <input type="text" id="destination" placeholder="Destination">
+    <input type="date" id="startDate">
+    <input type="date" id="endDate">
+    <input type="number" id="budget" placeholder="Budget">
+    <select id="travelType">
+      <option>Solo</option>
+      <option>Family</option>
+      <option>Friends</option>
+      <option>Business</option>
+    </select>
+    <textarea id="notes" placeholder="Notes"></textarea>
+    <p id="message"></p>
+    <button type="submit">Save Trip</button>
+  </form>
+
+  <h2>Saved Trips</h2>
+  <div id="tripList"></div>
+  <p id="emptyMessage">No trips planned yet.</p>
+
+  <script src="js.js"></script>
+</body>
+</html>
